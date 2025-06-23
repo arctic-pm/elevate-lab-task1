@@ -1,0 +1,56 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-23 20:24 IST
+Nmap scan report for reliance.reliance (192.168.29.1)
+Host is up (0.014s latency).
+Not shown: 991 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+80/tcp   open   http
+443/tcp  open   https
+1900/tcp open   upnp
+2869/tcp closed icslap
+7443/tcp open   oracleas-https
+8002/tcp closed teradataordbms
+8080/tcp open   http-proxy
+8200/tcp closed trivnet1
+8443/tcp open   https-alt
+MAC Address: B4:A7:C6:85:6F:BD (Servercom (India) Private Limited)
+
+Nmap scan report for 192.168.29.13
+Host is up (0.0085s latency).
+All 1000 scanned ports on 192.168.29.13 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 5A:8E:D5:D2:79:9F (Unknown)
+
+Nmap scan report for 192.168.29.43
+Host is up (0.034s latency).
+All 1000 scanned ports on 192.168.29.43 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 80:35:C1:B3:BC:63 (Xiaomi Communications)
+
+Nmap scan report for 192.168.29.45
+Host is up (0.0062s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE
+2869/tcp open  icslap
+9080/tcp open  glrpc
+MAC Address: B8:59:CE:DA:A4:39 (Earda Technologies)
+
+Nmap scan report for 192.168.29.123
+Host is up (0.030s latency).
+All 1000 scanned ports on 192.168.29.123 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 0A:5E:5E:37:4F:56 (Unknown)
+
+Nmap scan report for 192.168.29.214
+Host is up (0.017s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE    SERVICE
+5060/tcp  filtered sip
+44176/tcp filtered unknown
+MAC Address: DA:6C:32:5B:AD:26 (Unknown)
+
+Nmap scan report for 192.168.29.112
+Host is up (0.0000090s latency).
+All 1000 scanned ports on 192.168.29.112 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap done: 256 IP addresses (7 hosts up) scanned in 38.86 seconds
